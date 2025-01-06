@@ -1,0 +1,56 @@
+{
+  "homepage":"https://karpagam1602.github.io/ar_pongal_v3",
+  "name": "arapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@radix-ui/react-alert-dialog": "^1.1.4",
+    "@react-three/drei": "^9.120.4",
+    "@react-three/fiber": "^8.17.10",
+    "@react-three/xr": "^6.4.12",
+    "aframe": "^1.6.0",
+    "aframe-ar": "^0.2.1-a",
+    "cra-template": "1.2.0",
+    "gh-pages": "^6.3.0",
+    "lucide-react": "^0.469.0",
+    "qrcode.react": "^4.2.0",
+    "react": "^18.3.1",
+    "react-aframe": "^1.0.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.28.1",
+    "react-scripts": "5.0.1",
+    "three": "^0.171.0",
+    "web-vitals": "^4.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17"
+  }
+}

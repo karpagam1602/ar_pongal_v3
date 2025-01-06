@@ -1,0 +1,113 @@
+.qr-container {
+    min-height: 100vh;
+    padding: 2rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .qr-card {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    overflow: hidden;
+    animation: fadeIn 0.5s ease-out;
+  }
+  
+  .qr-header {
+    background: linear-gradient(to right, #4f46e5, #7c3aed);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .qr-header h2 {
+    margin: 0;
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+  
+  .qr-header p {
+    margin: 0.5rem 0 0;
+    opacity: 0.9;
+  }
+  
+  .qr-content {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, white, #f5f3ff);
+  }
+  
+  .qr-code-wrapper {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 2px solid #f3f4f6;
+  }
+  
+  .size-controls {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+    align-items: center;
+  }
+  
+  .control-button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 10px;
+    background: linear-gradient(to right, #4f46e5, #7c3aed);
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .control-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(79, 70, 229, 0.3);
+  }
+  
+  .size-display {
+    padding: 0.5rem 1rem;
+    background: #f3f4f6;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #4f46e5;
+  }
+  
+  .url-display {
+    margin-top: 2rem;
+    width: 100%;
+    padding: 1rem;
+    background: #f3f4f6;
+    border-radius: 10px;
+    text-align: center;
+    word-break: break-all;
+    color: #4b5563;
+  }
+  
+  .qr-footer {
+    border-top: 1px solid #f3f4f6;
+    padding: 1.5rem;
+    text-align: center;
+    color: #6b7280;
+    background: linear-gradient(to bottom, #f5f3ff, white);
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
