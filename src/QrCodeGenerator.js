@@ -4,7 +4,7 @@ import './QRCodeGenerator.css';  // We'll create this CSS file next
 
 const QRCodeGenerator = () => {
   const [size, setSize] = useState(200);
-  const webUrl = "https://relevantz.com";
+  const webUrl = "https://karpagam1602.github.io/ar_pongal_v3/";
   const qrCodeValue = webUrl;
 
   const increaseSize = () => setSize(prev => Math.min(prev + 50, 400));
